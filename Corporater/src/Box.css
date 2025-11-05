@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height:100%;
+    background-color: rgb(253, 180, 78);
+    border:4px solid black;
+    box-shadow: 15px 15px 0px 0px black;
+    border-radius: 25px;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.container h1{
+    text-align: center;
+}
+.container:hover{
+    transform: translate3d(10px,10px,0px);
+    box-shadow: 7px 7px 0px 0px black;
+}
+.textBoxContainer{
+    height:350px;
+    margin: 20px;
+    width: 70%;
+    border-radius: 20px;
+}
+.textBox{
+    padding: 10px;
+    border:3px solid black;
+    font-size: 1.5em;
+    height: inherit;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    border-radius: inherit;
+}
+.textBox:focus{
+    outline: none;
+    box-shadow: 0px 0px 1px 5px   hsl(0, 94%, 73%);
+}
+.textBox::placeholder{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    font-size: 1em;
+    text-wrap: wrap ;
+    padding:inherit;
+}
+.btnContainer{
+    display: flex;
+    position: relative;
+    top:30px;
+    gap:20px;    
+}
+
+#btn1,#btn2{
+    height: 4em;
+    width:fit-content;
+    border-radius: 10px;
+    border:3px solid black;
+    font-size:1.4em;
+    box-shadow: 10px 10px 0px 2px black;
+    transition: all 0.2s ease-in-out;
+}
+
+#btn1{
+    background-color: #ff83ff;    
+}
+#btn2{
+    background-color: rgb(207, 247, 127);
+}
+
+#btn1:active,#btn2:active{
+    transform: translate3d(10px,10px,0px);
+    box-shadow: 3px 3px 0px 2px black;
+}
+.examples{
+    margin-top:50px;
+    width: 80%;
+    height: auto;
+}
+.examples p{
+    color: rgba(255, 255, 255, 0.776);
+}
+
+@media (max-width:600px) {
+    .container{
+        width:90% 
+    }
+}
