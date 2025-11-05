@@ -13,9 +13,23 @@ body{
     background-color: #ffe9ca;
     right: 0px;
     border:2px solid #f6d9b3;
-    bottom: 0px ;
+    margin-top: 100px;
 }
 .footer h3{
     text-align: center;
 
+}
+
+@media (min-width:990px){
+
+    .footer{
+    margin-top: 100px;
+    width:auto;
+    position:relative;
+    background-color: #ffe9ca;
+    right: 0px;
+    border:2px solid #f6d9b3;
+    bottom: 0px ;
+    border-radius: 10px;
+}
 }
