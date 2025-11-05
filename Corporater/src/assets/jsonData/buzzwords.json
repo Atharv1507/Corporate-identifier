@@ -244,6 +244,11 @@
     "scorn": "Just pick one. Is it a guess or an estimate?",
     "level": 1
   },
+  "weeds":{
+    "suggestion":"details"
+    ,"scorn":"Dive in the weeds later",
+    "level":2
+  },
   "pain point": {
     "suggestion": "problem",
     "scorn": "Sounds more dramatic than 'problem'.",

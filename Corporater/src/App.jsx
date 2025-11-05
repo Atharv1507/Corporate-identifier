@@ -7,11 +7,11 @@ import { useState } from "react"
 
 function App() {
 
-
+  const jargonArr=[]
   const [text,setText]= useState('')
   const[scanResults,setScanResults]=useState({score:0 ,matches:[]})
   const[meterScore,setMeterScore]=useState(0);
-  
+
   const humanize=()=>{
     let humanizedText=text;
     for(const jargon in buzzwords){
@@ -28,7 +28,6 @@ function App() {
     const lowerText=text.toLowerCase()
     let detected_j=[]
     let score=0;
-    const jargonArr=[]
     for(const jargon in buzzwords){
       if(lowerText.includes(jargon)){
         jargonArr.push(jargon)
@@ -38,7 +37,6 @@ function App() {
     }
     setScanResults({score:score,matches:detected_j})
     console.log(jargonArr)
-    
     if(score==0){
       setMeterScore(0
       )
@@ -64,7 +62,7 @@ function App() {
     <>
      <Header></Header>
      <DecodeBox textVal={setText} humanize={humanize} ChangedText={text} handle_detect={handle_detect}></DecodeBox>
-      <Score meterScore={meterScore}></Score>
+      <Score jargonArr={scanResults.matches} meterScore={meterScore}></Score>
      <Footer/>
     </>
   )

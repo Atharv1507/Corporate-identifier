@@ -41,7 +41,8 @@ margin-bottom: 0;
     border: 3px solid black;
     border-radius: 20px;
     background-color:white ;
-    height:100px
+    height:auto;
+    min-width: 100px;
 }
 .jar p{
     margin-top: 5px;

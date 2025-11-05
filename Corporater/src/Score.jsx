@@ -1,6 +1,19 @@
 import './progressbar.css'
-function Score({meterScore}){
+function Score({meterScore , jargonArr}){
     const meterStyle={'--progress':`${meterScore}%`}
+
+   const j = jargonArr.map((jargonObject) => (
+  
+    // 2. We can use a property like 'suggestion' as the key
+    <li key={jargonObject.suggestion}>
+    
+      {/* 3. Now, we access the properties we want to display! */}
+      <strong>{jargonObject.suggestion}</strong>
+      <p><em>{jargonObject.scorn}</em></p>
+      
+    </li>
+  ));
+
     return(
         <div className="container">
             <div className="head">
@@ -10,7 +23,7 @@ function Score({meterScore}){
             </div>
             <div className="meter">
                 <div className="mintitle">
-                <h3>BS-o-meter</h3>
+                <h3>BS-o-meter:{meterScore}%</h3>
                 <h3>{100 - meterScore}% Human</h3>
                 </div>
      
@@ -26,7 +39,7 @@ function Score({meterScore}){
                 <div className="mintitle">
                 </div>
                 <div className="jar">
-                    <p>No corporate jargon found. 100% human </p>
+                   <ul>{j}</ul>
                 </div>
             </div>
 
