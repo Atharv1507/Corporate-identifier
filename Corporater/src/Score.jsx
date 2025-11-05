@@ -11,7 +11,7 @@ function Score({meterScore}){
             <div className="meter">
                 <div className="mintitle">
                 <h3>BS-o-meter</h3>
-                <h3>{meterScore}% Human</h3>
+                <h3>{100 - meterScore}% Human</h3>
                 </div>
      
                 <div className="bar" style={meterStyle}>
