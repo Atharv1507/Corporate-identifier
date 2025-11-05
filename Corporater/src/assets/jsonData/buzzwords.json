@@ -1,0 +1,327 @@
+{
+  "synergy": {
+    "suggestion": "working together",
+    "scorn": "The classic. Try to be more specific.",
+    "level": 3
+  },
+  "circle back": {
+    "suggestion": "talk later",
+    "scorn": "A non-committal classic. Just set a meeting.",
+    "level": 2
+  },
+  "touch base": {
+    "suggestion": "contact or talk",
+    "scorn": "What base? Are we playing baseball?",
+    "level": 2
+  },
+  "low-hanging fruit": {
+    "suggestion": "easy tasks",
+    "scorn": "Are we picking apples or running a business?",
+    "level": 3
+  },
+  "think outside the box": {
+    "suggestion": "think differently",
+    "scorn": "The most boxed-in way to ask for new ideas.",
+    "level": 3
+  },
+  "leverage": {
+    "suggestion": "use",
+    "scorn": "Is it a 'key strategic lever' or are you just... using something?",
+    "level": 1
+  },
+  "core competency": {
+    "suggestion": "what we're good at",
+    "scorn": "Sounds impressive, means very little.",
+    "level": 2
+  },
+  "action plan": {
+    "suggestion": "plan",
+    "scorn": "Because a regular 'plan' just isn't 'action' enough.",
+    "level": 1
+  },
+  "on my radar": {
+    "suggestion": "I'm aware of it",
+    "scorn": "Are you an air traffic controller?",
+    "level": 1
+  },
+  "paradigm shift": {
+    "suggestion": "big change",
+    "scorn": "You're probably not changing the world, just a spreadsheet.",
+    "level": 3
+  },
+  "bandwidth": {
+    "suggestion": "time or capacity",
+    "scorn": "You're not a modem. Do you have time, or don't you?",
+    "level": 2
+  },
+  "deep dive": {
+    "suggestion": "look at in detail",
+    "scorn": "Are you wearing scuba gear to this meeting?",
+    "level": 2
+  },
+  "wheelhouse": {
+    "suggestion": "area of expertise",
+    "scorn": "Is this a boat? Just say what you're good at.",
+    "level": 1
+  },
+  "move the needle": {
+    "suggestion": "make a difference",
+    "scorn": "What needle? Where? This is just vague.",
+    "level": 3
+  },
+  "boil the ocean": {
+    "suggestion": "do something impossible",
+    "scorn": "Yes, that sounds hard. And hot. Let's not.",
+    "level": 3
+  },
+  "unpack": {
+    "suggestion": "analyze or discuss",
+    "scorn": "Are we going on vacation? Let's just 'discuss' it.",
+    "level": 2
+  },
+  "strategic imperative": {
+    "suggestion": "important goal",
+    "scorn": "Makes a normal goal sound like a life-or-death mission.",
+    "level": 3
+  },
+  "at the end of the day": {
+    "suggestion": "ultimately",
+    "scorn": "A-plus for filler. What about the beginning of the day?",
+    "level": 1
+  },
+  "blue sky thinking": {
+    "suggestion": "creative ideas",
+    "scorn": "Often leads to ideas that are... full of hot air.",
+    "level": 2
+  },
+  "drill down": {
+    "suggestion": "examine in detail",
+    "scorn": "Sounds painful. Can we just 'look closer'?",
+    "level": 2
+  },
+  "put a pin in it": {
+    "suggestion": "pause this topic",
+    "scorn": "A nice way of saying 'Let's talk about this never.'",
+    "level": 1
+  },
+  "run it up the flagpole": {
+    "suggestion": "ask for opinions",
+    "scorn": "Just send an email. No flagpoles required.",
+    "level": 2
+  },
+  "it is what it is": {
+    "suggestion": "(say nothing)",
+    "scorn": "The ultimate statement of giving up. Very insightful.",
+    "level": 1
+  },
+  "ducks in a row": {
+    "suggestion": "get organized",
+    "scorn": "Quack. Quack. Are we at a carnival?",
+    "level": 1
+  },
+  "peel the onion": {
+    "suggestion": "investigate",
+    "scorn": "Sounds like it will make everyone cry.",
+    "level": 2
+  },
+  "pivot": {
+    "suggestion": "change direction",
+    "scorn": "The startup word for 'what we were doing isn't working.'",
+    "level": 2
+  },
+  "quick win": {
+    "suggestion": "easy success",
+    "scorn": "Another term for 'low-hanging fruit.' Pick one!",
+    "level": 1
+  },
+  "value-add": {
+    "suggestion": "benefit",
+    "scorn": "Is it adding value, or are you just... adding words?",
+    "level": 2
+  },
+  "ping me": {
+    "suggestion": "send me a message",
+    "scorn": "Are you a submarine? Just say 'message me'.",
+    "level": 1
+  },
+  "all hands on deck": {
+    "suggestion": "everyone needs to help",
+    "scorn": "We're not on a pirate ship. Is it an emergency?",
+    "level": 2
+  },
+  "let's park this": {
+    "suggestion": "let's stop talking about this",
+    "scorn": "Another great way to avoid a topic. Like 'put a pin in it'.",
+    "level": 1
+  },
+  "move the goalpost": {
+    "suggestion": "change the requirements",
+    "scorn": "Ah, the rules are changing. Fun.",
+    "level": 3
+  },
+  "best practice": {
+    "suggestion": "a good way",
+    "scorn": "Is it the best? Or just... a way that works?",
+    "level": 2
+  },
+  "game changer": {
+    "suggestion": "a big improvement",
+    "scorn": "This will 'change the game' just like the last 5 'game changers' did.",
+    "level": 3
+  },
+  "customer-centric": {
+    "suggestion": "focusing on customers",
+    "scorn": "As opposed to... what? Ignoring them?",
+    "level": 1
+  },
+  "right-size": {
+    "suggestion": "layoffs or cuts",
+    "scorn": "A cold, corporate way to say 'fire people'.",
+    "level": 3
+  },
+  "double-click": {
+    "suggestion": "look at in more detail",
+    "scorn": "First we 'drill down', now we 'double-click'. Just say 'look closer'.",
+    "level": 2
+  },
+  "take it offline": {
+    "suggestion": "discuss this privately",
+    "scorn": "The meeting version of 'this is boring' or 'we shouldn't say this publicly'.",
+    "level": 1
+  },
+  "win-win": {
+    "suggestion": "good for everyone",
+    "scorn": "Often said when it's a 'win-lose'.",
+    "level": 1
+  },
+  "ideate": {
+    "suggestion": "think of ideas",
+    "scorn": "A very fancy way to say 'think'.",
+    "level": 2
+  },
+  "thought leader": {
+    "suggestion": "expert",
+    "scorn": "Usually self-proclaimed. What are they leading?",
+    "level": 3
+  },
+  "buy-in": {
+    "suggestion": "agreement",
+    "scorn": "Do you need 'buy-in' or just 'permission'?",
+    "level": 1
+  },
+  "seamless integration": {
+    "suggestion": "works well with",
+    "scorn": "It's almost never 'seamless'.",
+    "level": 2
+  },
+  "holistic approach": {
+    "suggestion": "looking at everything",
+    "scorn": "Sounds vague and all-encompassing. Be specific.",
+    "level": 2
+  },
+  "robust": {
+    "suggestion": "works well",
+    "scorn": "A favorite for describing software. Very vague.",
+    "level": 1
+  },
+  "data-driven": {
+    "suggestion": "using data",
+    "scorn": "Implies other decisions are... 'vibe-driven'?",
+    "level": 1
+  },
+  "ecosystem": {
+    "suggestion": "our products",
+    "scorn": "It's not a rainforest, it's just your company's software.",
+    "level": 2
+  },
+  "let's table this": {
+    "suggestion": "postpone this",
+    "scorn": "Are we putting it on the table or taking it off? (Depends on your country!)",
+    "level": 1
+  },
+  "guesstimate": {
+    "suggestion": "estimate or guess",
+    "scorn": "Just pick one. Is it a guess or an estimate?",
+    "level": 1
+  },
+  "pain point": {
+    "suggestion": "problem",
+    "scorn": "Sounds more dramatic than 'problem'.",
+    "level": 1
+  },
+  "scalable": {
+    "suggestion": "can grow",
+    "scorn": "The #1 word in tech. Does it need to grow?",
+    "level": 2
+  },
+  "new normal": {
+    "suggestion": "the way things are now",
+    "scorn": "A phrase we all learned to hate. Very '2020'.",
+    "level": 3
+  },
+  "re-invent the wheel": {
+    "suggestion": "do work that's already done",
+    "scorn": "No need to 're-invent' this phrase either.",
+    "level": 1
+  },
+  "drink the Kool-Aid": {
+    "suggestion": "believe completely",
+    "scorn": "A pretty dark origin story for a phrase about... company loyalty.",
+    "level": 3
+  },
+  "herding cats": {
+    "suggestion": "managing a difficult team",
+    "scorn": "A classic for 'this is really hard to manage'.",
+    "level": 1
+  },
+  "in the weeds": {
+    "suggestion": "too focused on details",
+    "scorn": "Are you 'in the weeds' or just 'doing your job'?",
+    "level": 1
+  },
+  "lots of moving parts": {
+    "suggestion": "it's complicated",
+    "scorn": "A classic for 'I don't know how to explain this'.",
+    "level": 1
+  },
+  "ping": {
+    "suggestion": "message",
+    "scorn": "Are you a submarine? Just 'message' me.",
+    "level": 1
+  },
+  "square the circle": {
+    "suggestion": "do something impossible",
+    "scorn": "A fancier 'boil the ocean'.",
+    "level": 2
+  },
+  "hard stop": {
+    "suggestion": "I have to leave at...",
+    "scorn": "Because just 'stopping' isn't 'hard' enough.",
+    "level": 1
+  },
+  "future-proof": {
+    "suggestion": "long-lasting",
+    "scorn": "Spoiler: Nothing is 'future-proof'.",
+    "level": 2
+  },
+  "take this with a grain of salt": {
+    "suggestion": "don't fully believe this",
+    "scorn": "A nice way to say 'this might be wrong'.",
+    "level": 1
+  },
+  "let's connect": {
+    "suggestion": "let's talk",
+    "scorn": "The official language of LinkedIn. Vague.",
+    "level": 1
+  },
+  "giving 110%": {
+    "suggestion": "working hard",
+    "scorn": "Mathematically impossible, but it sounds impressive.",
+    "level": 2
+  },
+  "boots on the ground": {
+    "suggestion": "people in the field",
+    "scorn": "A bit militaristic for 'our sales team'.",
+    "level": 2
+  }
+}
