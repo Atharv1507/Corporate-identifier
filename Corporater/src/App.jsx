@@ -28,14 +28,16 @@ function App() {
     const lowerText=text.toLowerCase()
     let detected_j=[]
     let score=0;
+    const jargonArr=[]
     for(const jargon in buzzwords){
       if(lowerText.includes(jargon)){
+        jargonArr.push(jargon)
         detected_j.push(buzzwords[jargon])
         score+=buzzwords[jargon].level
       }
     }
     setScanResults({score:score,matches:detected_j})
-    console.log(scanResults)
+    console.log(jargonArr)
     
     if(score==0){
       setMeterScore(0
