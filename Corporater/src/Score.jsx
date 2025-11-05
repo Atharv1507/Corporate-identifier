@@ -1,5 +1,6 @@
 import './progressbar.css'
-function Score(){
+function Score({meterScore}){
+    const meterStyle={'--progress':`${meterScore}%`}
     return(
         <div className="container">
             <div className="head">
@@ -10,22 +11,22 @@ function Score(){
             <div className="meter">
                 <div className="mintitle">
                 <h3>BS-o-meter</h3>
-                <h3>100% Human</h3>
+                <h3>{meterScore}% Human</h3>
                 </div>
-    
-                <div className="bar">
+     
+                <div className="bar" style={meterStyle}>
                 </div>
             </div>
             <div className="mintitle">
                     <h2>
-                        Jagron Jar
+                        Jargon Jar
                     </h2>
             </div>
             <div className="jagronJar">
                 <div className="mintitle">
                 </div>
                 <div className="jar">
-                    <p>No corporate jagron found. 100% human </p>
+                    <p>No corporate jargon found. 100% human </p>
                 </div>
             </div>
 
